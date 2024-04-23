@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text To Speech Converter</title> 
+  <link rel="stylesheet" href="SpeakOut.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Text To Speech <span>Converter</span></h1>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="hero">
+        <textarea class="text-area" placeholder="Write anything here....."></textarea>
+        <div class="controls">
+          <select class="language-select">
+            
+          </select>
+          <button class="listen-btn">Listen</button>
+          <button class="stop-btn">Stop</button>
+        </div>
+        <div class="audio-wrapper">
+            <div class="audio-disc"></div>
+            <audio class="audio-player" controls></audio>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="SpeackOut.js"></script>
+</body>
+</html>
